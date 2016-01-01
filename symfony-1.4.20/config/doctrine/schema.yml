@@ -1,0 +1,13 @@
+Item:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      unsigned: true
+      notnull: true
+      autoincrement: true
+    title:
+      type: string(255)
+      notnull: true
