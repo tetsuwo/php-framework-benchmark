@@ -17,6 +17,8 @@
 
 Route::get('/hello/index', 'HelloController@index');
 
+Route::get('/orm/index', 'OrmController@index');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
